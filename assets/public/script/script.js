@@ -3,7 +3,7 @@ const fetchPokemon = () => {
 
   const pokemonPromises = [];
 
-  for (let i = 1; i <= 1; i++) {
+  for (let i = 1; i <= 5; i++) {
     pokemonPromises.push(
       fetch(getPokemon(i)).then(response => response.json())
     );
@@ -20,22 +20,98 @@ const fetchPokemon = () => {
       <img class="card-image" 
       src="https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png">
       <h2 class="card-title">${pokemon.name}</h2>
-      
-          <label for="status">Rapidez</label><br />
+      </li>
+      <div class="container2">
+      <li class="cardInfo">
+          <label for="status">Hp</label><br />
           <div class="progress">
-            <div
-              class="progress-bar bg-success"
-              role="progressbar"
-              style="width:${pokemon.stats[0].base_stat}% "
-              aria-valuenow="75"
-              aria-valuemin="0"
-              aria-valuemax="100"
-            ></div>
+          <div
+          class="progress-bar bg-success"
+          role="progressbar"
+          style="width:${pokemon.stats[0].base_stat}%"
+          aria-valuenow="25"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          ></div>
           </div>
         </li>
+
+        <li class="cardInfo">
+        <label for="status">ataque</label><br />
+        <div class="progress">
+        <div
+        class="progress-bar bg-success"
+        role="progressbar"
+        style="width:${pokemon.stats[1].base_stat}%"
+        aria-valuenow="25"
+        aria-valuemin="0"
+        aria-valuemax="100"
+        ></div>
+        </div>
+      </li>
+
+        <li class="cardInfo">
+        <label for="status">defesa</label><br />
+        <div class="progress">
+        <div
+        class="progress-bar bg-success"
+        role="progressbar"
+        style="width:${pokemon.stats[2].base_stat}%"
+        aria-valuenow="25"
+        aria-valuemin="0"
+        aria-valuemax="100"
+        ></div>
+        </div>
+        </li>
+        
+        <li class="cardInfo">
+        <label for="status">ataque especial</label><br />
+        <div class="progress">
+        <div
+        class="progress-bar bg-success"
+        role="progressbar"
+        style="width:${pokemon.stats[3].base_stat}%"
+        aria-valuenow="25"
+        aria-valuemin="0"
+        aria-valuemax="100"
+        ></div>
+        </div>
+        </li>
+        
+        <li class="cardInfo">
+        <label for="status">defesa especial</label><br />
+        <div class="progress">
+        <div
+        class="progress-bar bg-success"
+        role="progressbar"
+        style="width:${pokemon.stats[4].base_stat}%"
+        aria-valuenow="25"
+        aria-valuemin="0"
+        aria-valuemax="100"
+        ></div>
+        </div>
+        </li>
+        
+        <li class="cardInfo">
+        <label for="status">velocidade</label><br />
+        <div class="progress">
+        <div
+        class="progress-bar bg-success"
+        role="progressbar"
+        style="width:${pokemon.stats[5].base_stat}%"
+        aria-valuenow="25"
+        aria-valuemin="0"
+        aria-valuemax="100"
+        ></div>
+        </div>
+        </li>
+        
+
+       
       </div>
-    </div>
-      </li>`;
+
+       
+        `;
       return acumulator;
     }, "");
     const ul = document.querySelector('[data-js="pokedex"]');

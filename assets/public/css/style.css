@@ -10,76 +10,6 @@ h1 {
   font-size: 54px;
 }
 
-.container {
-  padding: 40px;
-  margin: 0 auto;
-}
-
-.pokedex,
-.info {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 20px;
-  padding-inline-start: 0;
-}
-
-.card {
-  width: 33%;
-  height: 70vh;
-  list-style: none;
-  padding: 40px;
-  color: #222;
-  background-color: #fff;
-  text-align: center;
-  border-radius: 20px !important;
-  position: relative;
-  margin-left: 16%;
-}
-.card-title {
-  text-transform: capitalize;
-  margin-bottom: 0px;
-  font-size: 32px;
-  font-weight: normal;
-  position: relative;
-  z-index: 2;
-}
-
-.card-subtitle {
-  margin-top: 5px;
-  color: #666;
-  font-weight: lighter;
-  position: relative;
-  z-index: 2;
-}
-
-.card-image {
-  height: 210px;
-  margin-top: -6%;
-  position: relative;
-  z-index: 2;
-}
-
-.cardInfo {
-  width: 33%;
-  height: 70vh;
-  list-style: none;
-  padding: 40px;
-  font-size: 1.3rem;
-  color: rgb(80, 79, 79);
-  border-radius: 20px;
-  position: relative;
-  margin: -31rem 0 0 64%;
-}
-.cardInfo label {
-  margin-left: -11rem;
-  margin-top: 27px;
-  position: absolute;
-}
-
-.progress {
-  margin-top: 5px;
-}
-
 nav ul {
   width: 10%;
   height: 190vh;
@@ -105,4 +35,77 @@ nav ul {
 #ul-list li:hover {
   transform: 2s ease;
   background-color: rgb(107, 152, 192);
+}
+.container {
+  padding: 40px;
+  margin: 0 auto;
+}
+
+.pokedex {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 1fr, 1fr);
+  grid-gap: 20px;
+  padding-inline-start: 0;
+}
+
+.card {
+  width: 41%;
+  height: 70vh;
+  list-style: none;
+  padding: 40px;
+  color: #222;
+  background-color: #fff;
+  text-align: center;
+  border-radius: 20px !important;
+  position: relative;
+  flex-direction: column;
+  margin-left: 4%;
+}
+.card-title {
+  text-transform: capitalize;
+  margin-bottom: 0px;
+  font-size: 32px;
+  font-weight: normal;
+  position: relative;
+  z-index: 2;
+}
+
+.card-subtitle {
+  margin-top: 5px;
+  color: #666;
+  font-weight: lighter;
+  position: relative;
+  z-index: 2;
+}
+
+.card-image {
+  width: 81%;
+  height: 221px;
+  margin-top: -8%;
+  position: relative;
+  z-index: 2;
+}
+
+.cardInfo {
+  list-style: none;
+  padding: 40px;
+  font-size: 1.3rem;
+  color: rgb(80, 79, 79);
+  border-radius: 20px;
+  margin: -3rem 0 0 10rem;
+}
+.cardInfo label {
+  margin-left: -17rem;
+  margin-top: 5px;
+  position: absolute;
+}
+
+.progress {
+  margin: -16px 0 0 -7rem;
+}
+
+.container2 {
+  width: 50%;
+  height: 66vh;
+  margin: -43ch 0 0 41rem;
 }
