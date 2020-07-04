@@ -79,11 +79,11 @@ nav ul {
 }
 
 .card-image {
-  width: 81%;
-  height: 221px;
-  margin-top: -8%;
+  width: 50%;
+  height: 203px;
   position: relative;
   z-index: 2;
+  margin: -7% 0 0 21%;
 }
 
 .cardInfo {
@@ -95,11 +95,16 @@ nav ul {
   margin: -3rem 0 0 10rem;
 }
 .cardInfo label {
-  margin-left: -17rem;
+  margin-left: -22%;
   margin-top: 5px;
   position: absolute;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
 }
-
+.statusPokemon {
+  position: absolute;
+  margin: -26px 0 0 -12%;
+}
 .progress {
   margin: -16px 0 0 -7rem;
 }
