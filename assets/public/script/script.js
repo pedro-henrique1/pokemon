@@ -3,17 +3,15 @@ const fetchPokemon = () => {
 
   const pokemonPromises = [];
 
-  for (let i = 1; i <= 5; i++) {
+  for (let i = 1; i <= 150; i++) {
     pokemonPromises.push(
       fetch(getPokemon(i)).then(response => response.json())
     );
   }
-  console.log(pokemonPromises);
 
   Promise.all(pokemonPromises).then(pokemons => {
     const listPokemons = pokemons.reduce((acumulator, pokemon) => {
       const types = pokemon.types.map(typeInfo => typeInfo.type.name);
-      console.log(pokemon.stats[0].base_stat);
 
       acumulator += `
       <li class="card">
