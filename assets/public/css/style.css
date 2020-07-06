@@ -10,32 +10,6 @@ h1 {
   font-size: 54px;
 }
 
-nav ul {
-  width: 10%;
-  height: 190vh;
-  background-color: #fff;
-  position: absolute;
-  margin-top: 1px;
-}
-
-#ul-list li {
-  width: 117px;
-  height: 29px;
-  border: 2px solid rgb(131, 186, 235);
-  list-style: none;
-  margin-top: 10px;
-  color: #000;
-  margin-left: -31px;
-  text-align: center;
-  font-weight: bold;
-  border-radius: 5px;
-  text-decoration: none;
-}
-
-#ul-list li:hover {
-  transform: 2s ease;
-  background-color: rgb(107, 152, 192);
-}
 .container {
   padding: 40px;
   margin: 0 auto;
@@ -59,7 +33,7 @@ nav ul {
   border-radius: 20px !important;
   position: relative;
   flex-direction: column;
-  margin-left: 4%;
+  margin-left: -3%;
 }
 .card-title {
   text-transform: capitalize;
@@ -112,5 +86,5 @@ nav ul {
 .container2 {
   width: 50%;
   height: 66vh;
-  margin: -43ch 0 0 41rem;
+  margin: -43ch 0 0 37rem;
 }

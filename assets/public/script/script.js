@@ -30,7 +30,7 @@ const fetchPokemon = () => {
               style="width:${pokemon.stats[0].base_stat}%"
               aria-valuenow="25"
               aria-valuemin="0"
-              aria-valuemax="100"
+              aria-valuemax="200"
               ></div>
             </div>
         </li>
@@ -45,7 +45,7 @@ const fetchPokemon = () => {
             style="width:${pokemon.stats[1].base_stat}%"
             aria-valuenow="25"
             aria-valuemin="0"
-            aria-valuemax="100"
+            aria-valuemax="200"
             ></div>
           </div>
       </li>
@@ -60,7 +60,7 @@ const fetchPokemon = () => {
             style="width:${pokemon.stats[2].base_stat}%"
             aria-valuenow="25"
             aria-valuemin="0"
-            aria-valuemax="100"
+            aria-valuemax="200"
             ></div>
          </div>
         </li>
@@ -75,7 +75,7 @@ const fetchPokemon = () => {
             style="width:${pokemon.stats[3].base_stat}%"
             aria-valuenow="25"
             aria-valuemin="0"
-            aria-valuemax="100"
+            aria-valuemax="200"
             ></div>
           </div>
         </li>
@@ -90,7 +90,7 @@ const fetchPokemon = () => {
               style="width:${pokemon.stats[4].base_stat}%"
               aria-valuenow="25"
               aria-valuemin="0"
-              aria-valuemax="100"
+              aria-valuemax="200"
               ></div>
             </div>
         </li>
@@ -105,7 +105,7 @@ const fetchPokemon = () => {
             style="width:${pokemon.stats[5].base_stat}%"
             aria-valuenow="25"
             aria-valuemin="0"
-            aria-valuemax="100"
+            aria-valuemax="200"
             ></div>
           </div>
         </li>
