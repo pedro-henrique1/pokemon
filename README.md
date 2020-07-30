@@ -1,27 +1,21 @@
-<img src="github/tecnologia.png" align="center" width='400' />
+<h1 align = "center">pokedex</h1>
 
-<h1 align = "center">Dashboard</h1>
+![GitHub repo size](https://img.shields.io/github/repo-size/pedro-henrique1/pokemon)
+![GitHub](https://img.shields.io/github/license/pedro-henrique1/pokemon)
+![GitHub language count](https://img.shields.io/github/languages/count/pedro-henrique1/pokemon)
+![GitHub top language](https://img.shields.io/github/languages/top/pedro-henrique1/pokemon)
 
-![GitHub repo size](https://img.shields.io/github/repo-size/pedro-henrique1/dashboard)
-![GitHub](https://img.shields.io/github/license/pedro-henrique1/dashboard)
-![GitHub language count](https://img.shields.io/github/languages/count/pedro-henrique1/dashboard)
-![GitHub top language](https://img.shields.io/github/languages/top/pedro-henrique1/dashboard)
-
-<p>A aplicação construida para treinar minha habilidade com graficos.
+<p>A aplicação construida para treinar minha habilidade com javascript.
 <br>
 <br>
 
 ## links das tecnologia usadas 🔗
 
-👉🏼 [graficos](https://developers.google.com/chart/)<br>
 👉🏼 [html5](https://developer.mozilla.org/pt-BR/docs/Web/HTML)<br>
 👉🏼 [css3](https://developer.mozilla.org/pt-br/docs/web/css)<br>
 👉🏼 [javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/About_JavaScript)
 <br>
-
-<h4 align="center"> 
-	🚧 Em construção...  🚧
-</h4>
+👉🏼 [api](https://pokeapi.co/) que usei para pegar os dados
 
 ## Como usar 🎉
 
@@ -37,7 +31,7 @@ $ cd pokemon
 
 $ yarn dev
 
-O servidor iniciara na porta:3333 - acesse
+O servidor iniciara na porta:3333  - acesse http://localhost:3000
 
 ```
 
