@@ -1,0 +1,15 @@
+{
+  "name": "pokemon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/serve.js "
+  },
+  "repository": "https://github.com/pedro-henrique1/pokemon.git",
+  "author": "pedro henrique <ph8464803@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
