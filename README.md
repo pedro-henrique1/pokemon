@@ -31,7 +31,7 @@ $ cd pokemon
 
 $ yarn dev
 
-O servidor iniciara na porta:3333  - acesse http://localhost:3000
+O servidor iniciara na porta:3333  http://localhost:3000
 
 ```
 
