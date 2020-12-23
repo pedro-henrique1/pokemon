@@ -1,90 +1,95 @@
 body {
-  background: #efefbb;
-  background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));
-  color: white;
-  margin: 0;
-  font-family: rubik;
+    background: #efefbb;
+    background: linear-gradient(to right, rgb(197, 230, 236), rgb(239, 187, 230));
+    color: white;
+    margin: 0;
+    font-family: rubik, serif;
 }
+
 h1 {
-  text-align: center;
-  font-size: 54px;
+    text-align: center;
+    font-size: 54px;
 }
 
 .container {
-  padding: 40px;
-  margin: 0 auto;
+    padding: 40px;
+    margin: 0 auto;
 }
 
 .pokedex {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, 1fr, 1fr);
-  grid-gap: 20px;
-  padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr, 1fr);
+    grid-gap: 20px;
+    padding-inline-start: 0;
 }
 
 .card {
-  width: 41%;
-  height: 70vh;
-  list-style: none;
-  padding: 40px;
-  color: #222;
-  background-color: #fff;
-  text-align: center;
-  border-radius: 20px !important;
-  position: relative;
-  flex-direction: column;
-  margin-left: -3%;
+    width: 41%;
+    height: 70vh;
+    list-style: none;
+    padding: 40px;
+    color: #222;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 20px !important;
+    position: relative;
+    flex-direction: column;
+    margin-left: -3%;
 }
+
 .card-title {
-  text-transform: capitalize;
-  margin-bottom: 0px;
-  font-size: 32px;
-  font-weight: normal;
-  position: relative;
-  z-index: 2;
+    text-transform: capitalize;
+    margin-bottom: 0px;
+    font-size: 32px;
+    font-weight: normal;
+    position: relative;
+    z-index: 2;
 }
 
 .card-subtitle {
-  margin-top: 5px;
-  color: #666;
-  font-weight: lighter;
-  position: relative;
-  z-index: 2;
+    margin-top: 5px;
+    color: #666;
+    font-weight: lighter;
+    position: relative;
+    z-index: 2;
 }
 
 .card-image {
-  width: 50%;
-  height: 203px;
-  position: relative;
-  z-index: 2;
-  margin: -7% 0 0 21%;
+    width: 50%;
+    height: 203px;
+    position: relative;
+    z-index: 2;
+    margin: -7% 0 0 21%;
 }
 
 .cardInfo {
-  list-style: none;
-  padding: 40px;
-  font-size: 1.3rem;
-  color: rgb(80, 79, 79);
-  border-radius: 20px;
-  margin: -3rem 0 0 10rem;
+    list-style: none;
+    padding: 40px;
+    font-size: 1.3rem;
+    color: rgb(80, 79, 79);
+    border-radius: 20px;
+    margin: -3rem 0 0 10rem;
 }
+
 .cardInfo label {
-  margin-left: -22%;
-  margin-top: 5px;
-  position: absolute;
-  font-size: 18px;
-  font-family: Arial, Helvetica, sans-serif;
+    margin-left: -22%;
+    margin-top: 5px;
+    position: absolute;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .statusPokemon {
-  position: absolute;
-  margin: -26px 0 0 -12%;
+    position: absolute;
+    margin: -26px 0 0 -12%;
 }
+
 .progress {
-  margin: -16px 0 0 -7rem;
+    margin: -16px 0 0 -7rem;
 }
 
 .container2 {
-  width: 50%;
-  height: 66vh;
-  margin: -43ch 0 0 37rem;
+    width: 50%;
+    height: 66vh;
+    margin: -59ch 0 0 43rem;
 }

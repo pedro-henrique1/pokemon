@@ -1,19 +1,19 @@
 const fetchPokemon = () => {
-  const getPokemon = id => `https://pokeapi.co/api/v2/pokemon/${id}`;
+    const getPokemon = id => `https://pokeapi.co/api/v2/pokemon/${id}`;
 
-  const pokemonPromises = [];
+    const pokemonPromises = [];
 
-  for (let i = 1; i <= 150; i++) {
-    pokemonPromises.push(
-      fetch(getPokemon(i)).then(response => response.json())
-    );
-  }
+    for (let i = 1; i <= 150; i++) {
+        pokemonPromises.push(
+            fetch(getPokemon(i)).then(response => response.json())
+        );
+    }
 
-  Promise.all(pokemonPromises).then(pokemons => {
-    const listPokemons = pokemons.reduce((acumulator, pokemon) => {
-      const types = pokemon.types.map(typeInfo => typeInfo.type.name);
+    Promise.all(pokemonPromises).then(pokemons => {
+        const listPokemons = pokemons.reduce((acumulator, pokemon) => {
+            const types = pokemon.types.map(typeInfo => typeInfo.type.name);
 
-      acumulator += `
+            acumulator += `
       <li class="card">
       <img class="card-image" 
       src="https://pokeres.bastionbot.org/images/pokemon/${pokemon.id}.png">
@@ -78,7 +78,7 @@ const fetchPokemon = () => {
             aria-valuemax="200"
             ></div>
           </div>
-        </li>
+        </li>                       
         
         <li class="cardInfo">
             <label for="status">defesa especial</label><br />
@@ -111,10 +111,10 @@ const fetchPokemon = () => {
         </li>
       </div>
         `;
-      return acumulator;
-    }, "");
-    const ul = document.querySelector('[data-js="pokedex"]');
-    ul.innerHTML = listPokemons;
-  });
+            return acumulator;
+        }, "");
+        const ul = document.querySelector('[data-js="pokedex"]');
+        ul.innerHTML = listPokemons;
+    });
 };
 fetchPokemon();
