@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d8e930b-2773-467a-924a-66eac466b5fd" name="Default Changelist" comment="update no layout">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5d8e930b-2773-467a-924a-66eac466b5fd" name="Default Changelist" comment="update no layout" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608757963885</updated>
       <workItem from="1608757968894" duration="2976000" />
+      <workItem from="1609273305614" duration="353000" />
     </task>
     <task id="LOCAL-00001" summary="update no layout">
       <created>1608761579363</created>
@@ -88,6 +87,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update no layout" />
